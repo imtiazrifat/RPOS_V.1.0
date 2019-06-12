@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="RposEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Catagories" EntityType="Model.Catagory" />
+  </EntityContainer>
+  <EntityType Name="Catagory">
+    <Key>
+      <PropertyRef Name="CatagoryId" />
+    </Key>
+    <Property Name="CatagoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CatagoryCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CatagoryName" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="Details" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedId" Type="Int32" />
+    <Property Name="LastUpdateDate" Type="DateTime" Precision="3" />
+    <Property Name="LastUpdateId" Type="Int32" />
+    <Property Name="IsDelete" Type="Boolean" />
+  </EntityType>
+</Schema>

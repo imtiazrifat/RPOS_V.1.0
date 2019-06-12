@@ -1,0 +1,14 @@
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\obj\Debug\RPOS.BLL.csprojResolveAssemblyReference.cache
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\RPOS.BLL.dll.config
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\RPOS.BLL.dll
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\RPOS.BLL.pdb
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\EntityFramework.dll
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\RPOS.DLL.dll
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\RPOS.DLL.pdb
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\EntityFramework.xml
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\obj\Debug\RPOS.BLL.dll
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\obj\Debug\RPOS.BLL.pdb
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\PagedList.dll
+E:\dev.rifat\Live\RPOS_V.1.0\RPOS.BLL\bin\Debug\PagedList.xml

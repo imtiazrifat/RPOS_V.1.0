@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Catagory">
+    <Key>
+      <PropertyRef Name="CatagoryId" />
+    </Key>
+    <Property Name="CatagoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CatagoryCode" Type="nvarchar" MaxLength="250" />
+    <Property Name="CatagoryName" Type="nvarchar" MaxLength="350" />
+    <Property Name="Details" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedId" Type="int" />
+    <Property Name="LastUpdateDate" Type="datetime" />
+    <Property Name="LastUpdateId" Type="int" />
+    <Property Name="IsDelete" Type="bit" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="150" />
+    <Property Name="Password" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Catagory" EntityType="Self.Catagory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

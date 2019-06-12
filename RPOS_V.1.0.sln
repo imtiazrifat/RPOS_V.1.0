@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPOS_V.1.0", "RPOS_V.1.0\RPOS_V.1.0.csproj", "{50A8B2F8-979A-4C9B-884B-D8D93357EF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPOS.BLL", "RPOS.BLL\RPOS.BLL.csproj", "{961DF132-2A1E-4C3C-9A4A-C773BD64F84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPOS.DLL", "RPOS.DLL\RPOS.DLL.csproj", "{8071F9A0-E106-4CCB-A448-E0B2AE106B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A8B2F8-979A-4C9B-884B-D8D93357EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A8B2F8-979A-4C9B-884B-D8D93357EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A8B2F8-979A-4C9B-884B-D8D93357EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A8B2F8-979A-4C9B-884B-D8D93357EF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961DF132-2A1E-4C3C-9A4A-C773BD64F84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961DF132-2A1E-4C3C-9A4A-C773BD64F84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961DF132-2A1E-4C3C-9A4A-C773BD64F84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961DF132-2A1E-4C3C-9A4A-C773BD64F84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8071F9A0-E106-4CCB-A448-E0B2AE106B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8071F9A0-E106-4CCB-A448-E0B2AE106B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8071F9A0-E106-4CCB-A448-E0B2AE106B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8071F9A0-E106-4CCB-A448-E0B2AE106B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
